@@ -172,6 +172,7 @@ def main(page: ft.Page):
                 h2.visible= False
                 page.update()
 
+        ########### INPUT ID ###########
         c_id = ft.TextField(
             label= 'ID',
             visible= False,
@@ -185,6 +186,8 @@ def main(page: ft.Page):
             border_color= '#17ffee',
             focused_border_color= '#e6324b'
         )
+
+        ########### INPUT NAME ###########
         c_name = ft.TextField(
                 width= 230,
                 height= 80,
@@ -195,6 +198,8 @@ def main(page: ft.Page):
                 focused_border_color= '#e6324b',
                 visible= True
                 )
+        
+        ########### INPUT EMAIL ###########
         c_email = ft.TextField(
                 width= 230,
                 height= 80,
@@ -205,6 +210,8 @@ def main(page: ft.Page):
                 focused_border_color= '#e6324b',
                 visible= True
                 )
+        
+        ########### INPUT SENHA ###########
         c_senha = ft.TextField(
                 width= 230,
                 height= 80,
@@ -217,6 +224,8 @@ def main(page: ft.Page):
                 focused_border_color= '#e6324b',
                 visible= True
                 )
+        
+        ########### INPUT TELEFONE ###########
         c_tell = ft.TextField(
                 width= 230,
                 height= 80,
@@ -227,6 +236,8 @@ def main(page: ft.Page):
                 focused_border_color= '#e6324b',
                 visible= True
                 )
+        
+        ########### BOTOES ###########
         btn = ft.ElevatedButton(
                 text= 'CADASTRAR',
                 width= 140,
