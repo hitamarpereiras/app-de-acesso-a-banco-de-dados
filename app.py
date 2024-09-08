@@ -12,7 +12,6 @@ def main(page: ft.Page):
     page.vertical_alignment= 'center'
     page.icon= './assets/user_icon.png'
     page.padding= 14
-    page.update()
 
     # Adicionar cliente
     def adicionar_client(e):
@@ -356,9 +355,8 @@ def main(page: ft.Page):
                 h2.visible= False
                 page.update()
     
-    #Notificacao   funcao
+    # Teste de conexao
     def teste_de_conexao(e):
-        # Teste de conexao
         if mm2.teste_conect():
             icon.width = 50
             icon.src = f'./assets/on_bd.png'

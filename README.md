@@ -6,15 +6,6 @@ Neste projeto, decidi utilizar a modularização para tornar o código mais orga
 
 Foram utilizadas as bibliotecas "datetime", "psycopg2", "dotenv" e "os". Na pasta "Preview-App-images", você encontrará algumas imagens do app em funcionamento.
 
-Para que este app funcione corretamente, é necessário ter um arquivo .env com as seguintes informações:
-
-DB_DATA=xxxx
-DB_USER=xxxx
-DB_PASSW=xxxx
-DB_LOCAL=xxxx
-BD_PORT=xxxx
-
-USER_NAME=xxxx
-USER_PASSWORD=xxxx
+Para que este app funcione corretamente, é necessário ter um arquivo .env
 
 Por: Hitamar Silva
