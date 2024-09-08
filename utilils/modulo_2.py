@@ -116,7 +116,7 @@ def procuar_clientes(id):
     cursor = conn.cursor()
     comamndSQL = "SELECT * FROM clientes WHERE id_cliente = %s"
     try:
-        cursor.execute(comamndSQL,(id))
+        cursor.execute(comamndSQL, (id,))
         cliente =  cursor.fetchone()
         if cliente:
             return cliente
